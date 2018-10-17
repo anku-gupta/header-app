@@ -1,0 +1,41 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div class='headerComponent common-style'>
+        <img src="../assets/logo.png" class="logo-img">
+
+        <button type="reset" class="btn btn-outline-secondary mr-2 notification-icon"
+                placement="bottom-right"
+                [ngbPopover]="notificationContent"
+                popoverClass="notification-menu-popover"
+                [popoverTitle]="notificationTitle">
+                
+                
+        </button>       
+
+        
+        <button type="button"
+                class="btn btn-outline-secondary mr-2 contact-icon"
+                placement="bottom-right"
+                popoverClass="user-menu-popover"
+                [ngbPopover] ="contactContent"
+                [popoverTitle] = "contactTitle">
+                                
+        </button>
+</div>
+<ng-template #contactContent>
+        <ul class="user-menu">
+                <li>{{ username }}</li> 
+                <li>My Account</li>
+                <li>Sign Out</li>
+        </ul>
+</ng-template>
+<ng-template #notificationContent>
+        <ul class="notification-menu">
+                <li>Some notifications related to BI board</li> 
+                <li>Some notifications related to BI dashboard</li>
+                <li>Some notifications related to pipeline</li>
+        </ul>           
+        </ng-template>
+<ng-template #notificationTitle>Notificaiton</ng-template>
+
+<router-outlet></router-outlet>

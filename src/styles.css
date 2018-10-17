@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+
+.user-menu-popover {
+    width: 150px;
+    height: 105px;
+}
+.user-menu-popover li {
+    margin-left: 14px;
+}
+.notification-menu-popover{
+    height: 245px;
+    width: 230px;
+    padding-left: 10px;
+    display: flex;
+}
+.notification-menu-popover li{
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+}
+
+
+.common-style {
+    background-color: #25476a !important;
+}
+
+.common-style .popover .arrow{
+    right: 0em !important;
+}

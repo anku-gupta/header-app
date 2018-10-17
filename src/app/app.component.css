@@ -1,0 +1,50 @@
+button {
+    /* background-image: url('../assets/ios-notifications-outline.svg'); */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* put the height and width of your image here */
+    height: 38px;
+    width: 38px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+  .headerComponent{
+    background-color: #25476a;  
+    height: 40px;
+  }
+  img{
+    padding-left: 20px;
+  }
+
+  .contact-icon{
+    width: 33px;
+    height: 33px;
+    margin-top: 0.3%;
+    padding-right: 30px;
+    background-image: url('../assets/ios-contact.svg');
+  }
+.contacts{
+  width:300px;
+
+}
+
+.user-menu {
+  list-style: none;
+  position: relative;
+  display: table-row-group;
+  font-size: 1.2pc;  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  .notification-icon{
+    width: 33px;
+    height: 33px;
+    margin-top: 0.3%;
+    padding-right: 30px;
+    background-image: url('../assets/ios-notifications-outline.svg');
+  }
+  .notification-menu{
+    list-style: outside;
+
+  }
